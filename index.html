@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://kit.fontawesome.com/c71d7078cd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="pt-3 pb-1 border-bottom border-light d-flex justify-content-between">
+
+        <!-- navbar-icon-display -->
+        <nav class="navbar p-0 d-md-none">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav me-auto mt-4">
+
+                        <a class="nav-link active ps-1" aria-current="page" href="#">Inbox</a>
+
+                        <a class="nav-link ps-1" href="#">Starred</a>
+                        <a class="nav-link ps-1" href="#">Sent</a>
+                        <a class="nav-link ps-1" href="#">Drafts</a>
+                        <a class="nav-link ps-1" href="#">Spam</a>
+                        <button type="button" class="btn btn-sm btn-outline-dark me-auto mt-2">Compose</button>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- user-icon -->
+        <div class="container-fluid">
+            <div class=" dropdown d-flex justify-content-end pt-1">
+                <a href="#" class="d-block  link-dark text-decoration-none dropdown-toggle" id="dropdownUser2"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-circle-user fa-xl"></i>
+                </a>
+                <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Switch account</a></li>
+                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <div class="container-fluid h-100 p-0">
+        <div class="row h-100 w-100 m-0 p-0">
+            <!-- folder-column -->
+            <div class="col-xl-2 col-md-3 border-end border-light d-none d-md-block">
+                <div>
+                    <div class="d-flex flex-column justify-content-center mt-3">
+                        <h4 class="text-center">Welcome!</h4>
+
+                        <button type="button" class="btn btn-outline-dark">Compose</button>
+
+                    </div>
+
+                    <ul class=" h3 text-left p-2">
+                        <li class="list-unstyled m-3  d-flex justify-content-between">
+                            <a href="#" class="link-body-emphasis text-decoration-none active">Inbox</a>
+
+                            <small class="fs-6 align-self-center">99</small>
+
+                        </li>
+                        <hr>
+                        <li class="list-unstyled m-3 ">
+                            <a href="#" class="link-body-emphasis text-decoration-none ">Starred</a>
+
+                        </li>
+                        <li class="list-unstyled m-3 ">
+                            <a href="#" class="link-body-emphasis text-decoration-none ">Sent</a>
+
+                        </li>
+                        <li class="list-unstyled m-3 ">
+                            <a href="#" class="link-body-emphasis text-decoration-none ">Drafts</a>
+
+                        </li>
+                        <li class="list-unstyled m-3 ">
+                            <a href="#" class="link-body-emphasis text-decoration-none">Spam</a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+
+
+
+            <!--Both-Email-Message-column -->
+            <div class="col-xl-10 col-md-9  col-12 h-100 border-end border-light p-0">
+                <div class="row email-row h-100 w-100 p-0 m-0">
+
+                    <!-- Email-column -->
+                    <div class=" col-xl-6 col-md-12 border-bottom  border-end border-light h-50 overflow-scroll email-column">
+
+                        <div class="search-div">
+
+
+                            <input type="search" class="rounded-pill border border-light mt-3 w-100 text-center"
+                                placeholder="Search in mail">
+
+
+                        </div>
+                        <div class="mt-4">
+                            <h6>INBOX</h6>
+                        </div>
+                        <div class="list-group">
+
+                            <a href="#" class="list-group-item active py-2">
+
+                                <div class=" form-check d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" value id="flexCheckChecked"
+                                            checked>
+                                        <label class="form-check-label" for="flexCheckChecked"> </label>
+
+                                        <!-- Sender name -->
+                                        <strong>Lorem Ipsum</strong>
+                                    </div>
+                                    <!-- Date -->
+                                    <div>
+                                        <small>yesterday</small>
+                                    </div>
+                                </div>
+                                <!-- Subject -->
+                                <div class="ms-4">Lorem ipsum dolor sit
+                                    ame...</div>
+
+                            </a>
+
+
+
+                            <a href="#" class="list-group-item py-2 ">
+
+                                <div class=" form-check d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" value id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked"> </label>
+
+                                        <strong>LinkedIn</strong>
+                                    </div>
+
+                                    <div>
+                                        <small>Jun 29 </small>
+                                    </div>
+                                </div>
+
+                                <div class="ms-4">You have 1 new message</div>
+
+                            </a>
+
+
+
+
+                            <a href="#" class="list-group-item py-2">
+
+                                <div class=" form-check d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" value id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked"> </label>
+
+                                        <strong>Clockify </strong>
+                                    </div>
+
+                                    <div>
+                                        <small>Jul 2</small>
+                                    </div>
+                                </div>
+
+                                <div class="ms-4">Clockify weekly report...</div>
+
+                            </a>
+                          
+                            <a href="#" class="list-group-item py-2 ">
+
+                                <div class=" form-check d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" value id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked"> </label>
+
+                                        <strong>Uber</strong>
+                                    </div>
+
+                                    <div>
+                                        <small>Jun 28 </small>
+                                    </div>
+                                </div>
+
+                                <div class="ms-4">Get up to $20 worth of free food before it’s too late.. </div>
+
+                            </a>
+
+                            <a href="#" class="list-group-item py-2 ">
+
+                                <div class=" form-check d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" value id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked"> </label>
+
+                                        <strong>CodePen</strong>
+                                    </div>
+
+                                    <div>
+                                        <small>Jun 27 </small>
+                                    </div>
+                                </div>
+
+                                <div class="ms-4">Posters, Pointers, and Pulling to Refresh...</div>
+
+                            </a>
+                         
+
+                        </div>
+
+                    </div>
+                    <!-- message-column -->
+                    <div class="col-xl-6 col-md-12 col-12 border-end border-light h-50 message-column ">
+                        <div class="container mt-3 h-100 ">
+                            <button  class="btn message-icon" ><svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                              </svg> </button>
+                              <div class="float-end">
+                                <button  class="btn message-icon" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.146 4.854a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H12.5A2.5 2.5 0 0 1 15 6.5v8a.5.5 0 0 1-1 0v-8A1.5 1.5 0 0 0 12.5 5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4z"/>
+                              </svg></button>
+                              <button  class="btn message-icon" > <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
+                                <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"/>
+                              </svg></button>
+                              <button  class="btn message-icon" > <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                                <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                              </svg></button>
+                            </div>
+                            <div class="mt-4 mb-3 d-flex justify-content-between">
+                                <p class="subject">Lorem Ipsum</p>
+                                <small class="email-date">yesterday</small>
+                            </div>
+
+                            <div >
+                                From: xxx@gmail.com
+                            </div>
+                            <div class="mb-3">
+                                To: xxx@gmail.com
+                            </div>
+                            <div class="mb-3">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing
+                                elit. Maecenas iaculis risus bibendum,
+                                cursus
+                                urna sit amet, elementum purus. Etiam velit
+                                erat,
+                                commodo volutpat arcu in, lacinia ultrices
+                                nisl. Vestibulum malesuada quis tellus non
+                                efficitur. Integer maximus justo at dui
+                                sagittis
+                                egestas. Nunc maximus turpis sit amet orci
+                                fermentum
+                                elementum. Vestibulum pellentesque tortor
+                                eget ipsum dapibus, vitae volutpat mi
+                                vestibulum.
+                                Morbi in odio aliquam, eleifend lorem eget,
+                                vulputate urna. Sed sit amet lectus tellus.
+                                Ut
+                                sit
+                                amet metus tincidunt, tincidunt tortor ac,
+                                cursus elit.
+                            </div>
+                            <div class id="reply">
+                                <button type="button" class="btn btn-dark" onClick="textarea()">Reply</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script>
+        function textarea() {
+            document.getElementById("reply").innerHTML = "<textarea></textarea><br><button>Send</button>"
+
+            document.getElementById("reply").firstChild.classList.add("form-control");
+            document.getElementById("reply").firstChild.rows = "5";
+            document.getElementById("reply").lastChild.className += "btn btn-dark";
+
+        }
+
+    </script>
+</body>
+
+</html>

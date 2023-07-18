@@ -1,0 +1,57 @@
+body {
+  height: 100vh;
+}
+
+.list-icon {
+  position: absolute;
+  top: 20px;
+  left: 5px;
+  z-index: 1;
+}
+
+.search-div {
+  position: relative;
+}
+
+.welcome {
+  position: absolute;
+  top: 20px;
+}
+
+.user-icon {
+  position: relative;
+}
+
+input[type="search"]:focus {
+  border-color: #999999 !important;
+  outline: none;
+}
+
+.list-group-item {
+  border: 0;
+}
+
+.list-group-item.active {
+  color: black;
+  background-color: rgba(13, 110, 253, 0.25);
+  border-radius: 5px;
+}
+.message-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+}
+.message-icon:hover {
+  background-color: #ebebeb;
+}
+
+@media (min-width: 1200px) {
+  .email-column {
+    height: 100vh !important;
+    margin: 0 !important;
+  }
+  .message-column {
+    height: 100vh !important;
+  }
+}
